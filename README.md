@@ -1,28 +1,164 @@
-**Overview**
-Welcome to the Deep Learning Project repository! This project focuses on implementing image classification using deep learning techniques, specifically leveraging transfer learning models. The goal is to provide an end-to-end solution for classifying images into various categories with high accuracy.
+# Deep-Transfer-Vision
 
-**Features**
-Image Classification: Use deep learning models to classify images into predefined categories.
-Transfer Learning: Employ pre-trained models such as DETR and YOLO models to improve accuracy and reduce training time.
-Data Augmentation: Enhance the training dataset with various data augmentation techniques to improve model generalization.
-Training and Evaluation: Comprehensive scripts for training models, evaluating performance, and visualizing results.
-Customizable Pipeline: Easily modify and extend the project to fit different datasets and classification tasks.
+> A comprehensive Computer Vision repository demonstrating Image Classification and Transfer Learning techniques using Convolutional Neural Networks (CNNs), Fully Connected Networks, VGG16, YOLOv8, and DETR.
 
-**Models**<br>
-  VGG16<br>
-  CNN  
-  FC  
-  YOLOv8  
-  DETR<br>
+## Overview
 
-**Prerequisites**<br>
-  Python 3.8 or higher  
-  TensorFlow 2.x  
-  Keras  
-  NumPy  
-  Pandas  
-  Matplotlib
+**Deep-Transfer-Vision** is a collection of deep learning projects focused on image classification and modern object detection. The repository explores the progression from traditional neural networks to state-of-the-art transfer learning and transformer-based detection models.
 
-Clone the Repository
+The project is divided into two major modules:
 
-git clone https://github.com/ankit.s.verma/Deep-Learning.git
+* **Image Classification**
+* **Transfer Learning for Object Detection**
+
+This repository is intended for students, researchers, and machine learning practitioners who want hands-on experience with computer vision architectures.
+
+---
+
+## Repository Structure
+
+```text
+Deep-Transfer-Vision/
+│
+├── Image Classification/
+│   ├── Task1A_CNN Model.ipynb
+│   ├── Task1A_FC Model.ipynb
+│   └── Task1C_VGG Model.ipynb
+│
+├── Transfer Learning/
+│   ├── DETR/
+│   │   ├── DETR_Drone.ipynb
+│   │   └── data.zip
+│   │
+│   └── YOLO_V8/
+│       ├── UAV_Detection_YOLOV8.ipynb
+│       ├── Dataset.zip
+│       └── README.md
+│
+└── README.md
+```
+
+---
+
+# Project Modules
+
+## 1. Image Classification
+
+This module explores different neural network architectures for image classification.
+
+### Fully Connected Network (FC)
+
+* Basic Artificial Neural Network
+* Dense layers for classification
+* Baseline performance comparison
+
+### Convolutional Neural Network (CNN)
+
+* Feature extraction using convolution layers
+* Pooling operations
+* Improved image classification accuracy
+
+### VGG16 Transfer Learning
+
+* Pretrained VGG16 backbone
+* Feature extraction
+* Fine-tuning for custom datasets
+* Faster convergence with higher accuracy
+
+---
+
+## 2. Transfer Learning
+
+### DETR (Detection Transformer)
+
+Facebook AI's Detection Transformer (DETR) replaces traditional object detection pipelines with a transformer-based architecture.
+
+Features include:
+
+* End-to-end object detection
+* Transformer encoder-decoder architecture
+* Bounding box prediction
+* Drone object detection
+
+---
+
+### YOLOv8
+
+YOLOv8 is one of the latest real-time object detection models developed by Ultralytics.
+
+This implementation demonstrates:
+
+* UAV detection
+* Real-time inference
+* Transfer learning
+* Dataset training
+* Performance evaluation
+
+---
+
+# Technologies Used
+
+* Python
+* TensorFlow
+* Keras
+* PyTorch
+* OpenCV
+* NumPy
+* Pandas
+* Matplotlib
+* Scikit-learn
+* Ultralytics YOLOv8
+* DETR (Transformer)
+
+---
+
+# Learning Objectives
+
+This repository demonstrates:
+
+* Image Classification
+* Deep Learning
+* Convolutional Neural Networks
+* Transfer Learning
+* Feature Extraction
+* Transformer-based Detection
+* Object Detection
+* UAV Detection
+* Computer Vision
+
+---
+
+# Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ankit-s-verma/Deep-Transfer-Vision.git
+```
+
+Navigate to the project:
+
+```bash
+cd Deep-Transfer-Vision
+```
+
+Launch the notebooks using Jupyter Notebook or Google Colab.
+
+---
+
+# Repository Highlights
+
+* Multiple Computer Vision architectures
+* Classical CNNs and Transfer Learning
+* Transformer-based Object Detection
+* Real-world UAV Detection
+* Beginner-friendly notebook implementation
+* Modular project organization
+
+---
+
+# Author
+
+**Ankit Verma**
+
+If you found this repository helpful, consider giving it a ⭐ to support the project.
